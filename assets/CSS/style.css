@@ -2,9 +2,6 @@ body {
     background-color: rgb(166, 238, 183);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-p {
-    padding: 50px;
-}
 .header {
     display: flex;
     justify-content: space-between;
@@ -28,13 +25,11 @@ p {
     flex-direction: column;
     align-items: center;
 }
-
 .contact-me {
    display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .sub-header {
     margin-right: 50px;
     border-style: solid;
@@ -59,4 +54,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+p {
+    padding: 50px;
 }
